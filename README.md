@@ -19,6 +19,7 @@
 ### So now you don't need to handle anything on the frontend side, just send your request to the server including the credential and Django will automatically do the rest for you, please see this [Demo](https://demoauth-gamma.vercel.app/)
 
 ## Procedures
+
 ### For Django
 - Clone this repo to whatever directory you wish.
 - Create a new environment by following the steps below
@@ -37,4 +38,4 @@
 - Run ``` npm i  ``` .
 - Finally, run ``` npm run dev ``` and you are good to go ; )
 
-Made with ❤️ by [KnightSarai](https://github.com/knightSarai) & [Mostafa-DE](https://github.com/Mostafa-DE)
+Made by [KnightSarai](https://github.com/knightSarai) & [Mostafa-DE](https://github.com/Mostafa-DE)
