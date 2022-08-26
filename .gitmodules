@@ -1,6 +1,0 @@
-[submodule "backend"]
-	path = backend
-	url = git@github.com:Mostafa-DE/simple-auth-django-react.git
-[submodule "frontend"]
-	path = frontend
-	url = git@github.com:Mostafa-DE/simple-auth-django-react.git
