@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
     'knox',
-    'demo',
+    'users',
 
 ]
 
@@ -57,7 +57,7 @@ REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': ('baseAuth.auth.CustomAuth',),
 }
 
-AUTH_USER_MODEL = 'demo.User'
+AUTH_USER_MODEL = 'users.User'
 
 REST_KNOX = {'TOKEN_TTL': timedelta(hours=168)}
 

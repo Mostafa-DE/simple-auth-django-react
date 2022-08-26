@@ -15,6 +15,6 @@ class ProtectedView(APIView):
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/auth/', include('demo.urls')),
+    path('api/auth/', include('users.urls')),
     path('hello/', ProtectedView.as_view(), name='hello'),
 ]
